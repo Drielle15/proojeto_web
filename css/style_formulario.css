@@ -1,0 +1,93 @@
+#div-form{
+    width: 500px;
+    min-height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#form{
+    background-color: rgb(240, 218, 189);
+    padding: 10px;
+
+
+}
+
+label{
+    display: block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.6em;
+}
+
+.input-vlr01{
+    width: 400px;
+}
+
+.input-vlr01, .input-vlr02{
+    height: 40px;
+    padding: 8px;
+    border-right: 8px;
+    font-size: 1.2em;
+}
+.input-vlr02{
+    width: 250px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    resize: none;
+}
+
+#div-btns{
+   margin: 20px 0px;
+   padding: 5px;
+}
+
+button{
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+    color: rgb(192, 131, 56);
+    background-color: rgb(233, 217, 198);
+
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(218, 140, 50);
+    letter-spacing: 5px;
+}
+
+a:link{
+    font-family: 'Courier New';
+    text-decoration: none;
+    color: rgb(247, 168, 65);
+    background-color: rgb(243, 237, 219);
+}
+
+a:visited, a:active{
+    font-family: 'Courier New';
+    text-decoration: none;
+    color: rgb(174, 19, 221);
+}
+
+a:hover{
+    
+}
